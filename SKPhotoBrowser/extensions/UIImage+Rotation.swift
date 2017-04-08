@@ -57,7 +57,7 @@ extension UIImage {
 
         case .right, .rightMirrored:
             transform = transform.translatedBy(x: 0, y: self.size.height)
-            transform = transform.rotated(by: CGFloat(-Double.pi /2))
+            transform = transform.rotated(by: CGFloat(-Double.pi / 2))
 
         default:
             break
